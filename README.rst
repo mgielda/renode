@@ -66,8 +66,15 @@ Go to `the releases section <https://github.com/renode/renode/releases/latest>`_
    **macOS** | Use the provided ``*.dmg`` as normal. Additionally, to be able to run Renode from the command line on macOS, create an appropriate alias. If you're using Bash, you can do it by adding ``alias renode="mono /Applications/Renode.app/Contents/MacOS/bin/Renode.exe"`` to your ``.bashrc`` file.
    **Windows** | Install Renode from the provided ``*.msi`` file. The installer will allow you to add icons to your Desktop and/or Start Menu and an entry to your PATH.
 
+.. role:: html(raw)
+   :format: html
+
+.. default-role:: html
+
+`<details><summary>`
 Additional prerequisites (for Robot framework testing)
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+`</summary>`
 
 To write and run test cases, Renode integrates with the Robot testing framework.
 This requires you to install Python 2.7 (on Windows, you will also need Cygwin - see `the advanced installation instructions <http://renode.readthedocs.io/en/latest/advanced/building_from_sources.html#windows>`_) with ``pip`` (note that the relevant package may be called ``python-pip`` on Linux).
@@ -75,6 +82,7 @@ This requires you to install Python 2.7 (on Windows, you will also need Cygwin -
 Once you have Python 2.7 and ``pip``, install some additional modules::
 
     python -m pip install robotframework netifaces requests psutil
+`</details>`
 
 Building from source (advanced)
 +++++++++++++++++++++++++++++++
