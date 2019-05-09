@@ -72,7 +72,7 @@ Go to `the releases section <https://github.com/renode/renode/releases/latest>`_
 .. default-role:: html
 
 `<details><summary>`
-:rubric:`Additional prerequisites (for Robot framework testing)`
+**Additional prerequisites (for Robot framework testing)**
 `</summary>`
 
 To write and run test cases, Renode integrates with the Robot testing framework.
